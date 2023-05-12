@@ -29,3 +29,6 @@ Clone github repo and run the following commands
 `docker build -t smartbear .`
 
 `docker run -d -p 80:80 smartbear`
+
+## Run tests
+`yarn test`

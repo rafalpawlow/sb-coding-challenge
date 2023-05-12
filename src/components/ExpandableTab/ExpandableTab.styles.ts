@@ -39,6 +39,7 @@ export const Headline = styled.div<HeadlineProps>`
 export const Content = styled.div<{ isOpen?: boolean; height?: number }>`
   overflow: hidden;
   height: ${({ isOpen, height }) => (isOpen && height ? `${height}px` : 0)};
-  transition: height 0.2s ease-in-out;
-  will-change: height;
+  opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
+  transition: height 0.2s ease-in-out, opacity 0.1s linear;
+  will-change: height, opacity;
 `

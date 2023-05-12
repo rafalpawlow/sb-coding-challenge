@@ -2,7 +2,7 @@ import { FC, PropsWithChildren, useRef, useState } from 'react'
 
 import { Headline, Wrapper, Content } from './ExpandableTab.styles'
 
-interface ExpandableTabProps extends PropsWithChildren {
+export interface ExpandableTabProps extends PropsWithChildren {
   label: string
   disabled?: boolean
   accentColor?: string
