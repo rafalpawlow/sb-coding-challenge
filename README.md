@@ -3,6 +3,7 @@
 This project was created for the recruitment process of the Senior Frontend Developer position
 
 ## Stack used in the project
+
 - Vite
 - React with Typescript
 - Emotion's Styled Components
@@ -10,6 +11,7 @@ This project was created for the recruitment process of the Senior Frontend Deve
 - Axios
 
 ## Developing project
+
 Clone github repo and run the following commands
 
 `yarn`
@@ -17,6 +19,7 @@ Clone github repo and run the following commands
 `yarn dev`
 
 ## Production build
+
 Clone github repo and run the following commands
 
 `yarn`
@@ -24,6 +27,7 @@ Clone github repo and run the following commands
 `yarn build`
 
 ## Build and run for production
+
 Clone github repo and run the following commands
 
 `docker build -t smartbear .`
@@ -31,4 +35,5 @@ Clone github repo and run the following commands
 `docker run -d -p 80:80 smartbear`
 
 ## Run tests
+
 `yarn test`

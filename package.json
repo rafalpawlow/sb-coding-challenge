@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:ts": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:ts && yarn lint:prettier",
     "preview": "vite preview",
     "test": "vitest"
   },
