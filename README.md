@@ -16,6 +16,13 @@ Clone github repo and run the following commands
 
 `yarn dev`
 
+## Production build
+Clone github repo and run the following commands
+
+`yarn`
+
+`yarn build`
+
 ## Build and run for production
 Clone github repo and run the following commands
 
