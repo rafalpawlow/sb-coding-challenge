@@ -25,8 +25,8 @@ export const Home = () => {
 
   // link paths with appropriate tags
   const tagsWithPaths = tags.map((tag) => {
-    const paths = mappedPaths.filter((path) => path.methods[0].tags.includes(tag.name))
-    return { ...tag, paths }
+    const filteredPathsByTag = mappedPaths.filter((path) => path.methods[0].tags.includes(tag.name))
+    return { ...tag, paths: filteredPathsByTag }
   })
 
   return (
